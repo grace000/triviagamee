@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Peanut Trivia</title>
+
+ <!--Linking reset css get reset code-->
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> 
+
+  <!--Linking bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <!--Linking google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Boogaloo" rel="stylesheet">
+
+  <!--Linking custom stylesheet-->
+  <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+
+</head>
+<body>
+
+<div class="container">
+  <div class="jumbotron">
+    <h1>Peanuts Trivia!</h1>
+    <h2 id="time"></h2>
+  </div>
+</div>  
+
+<div class="container">
+<form name="quiz">
+<div class="panel panel-default">
+  <div class="panel-body">
+  	1. What was Charlie Brown's dad's occupation?
+	<div id="aoptions">
+  		<p><input type="radio" name="q1" value="Mail Carrier">Mail Carrier</p>
+  		<p><input type="radio" name="q1" value="Barber">Barber</p>
+  		<p><input type="radio" name="q1" value="Fire Fighter">Fire Fighter</p>
+	</div>
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-body">
+  	2. Who thinks that Snoopy is just a funny looking kid with a big nose?
+	<div id="aoptions">
+  		<p><input type="radio" name="q2" value="Pig Pen">Pig Pen</p>
+  		<p><input type="radio" name="q2" value="Linus">Linus</p>
+  		<p><input type="radio" name="q2" value="Peppermint Patty">Peppermint Patty</p>
+	</div>
+  </div>
+</div>
+
+
+<div class="panel panel-default">
+  <div class="panel-body">
+  	3. Which character prides herself in her naturally curly hair?
+	<div id="aoptions">
+  		<p><input type="radio" name="q3" value="Freeda">Freeda</p>
+  		<p><input type="radio" name="q3" value="Violet">Violet</p>
+  		<p><input type="radio" name="q3" value="Marcie">Marcie</p>
+	</div>
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-body">
+  	4. Schroeder idolizes which classical musician?
+	<div id="aoptions">
+ 		 <p><input type="radio" name="q4" value="Chopin">Chopin</p>
+ 		 <p><input type="radio" name="q4" value="Brahms">Brahms</p>
+  		<p><input type="radio" name="q4" value="Beethoven">Beethoven</p>
+	</div>
+  </div>
+</div>
+</form>
+</div>
+
+
+<div class="form-group">
+      <div class="col-lg-10 col-lg-offset-2">
+        <button type="button" class="btn btn-danger" value="Done" onClick="getScore(this.form)">Get My Score</button>
+        <button type="reset" class="btn btn-default" value="Clear answers">Clear Answers</button>
+      </div>
+    </div>
+
+<br>
+<br>
+
+</div>
+
+      <script src="assets/javascript.js/app.js"></script>
+      <!--<script src="assets/javascript.js/game.js"></script>-->
+</body>
+
+</html>
